@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: Chris-pair
+    env: docker
+    plan: free
+    branch: main
+    repo: https://github.com/Lordblast2/Pair-session 
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
